@@ -21,7 +21,7 @@ const searchId = () => {
 
      axios.get(`https://rickandmortyapi.com/api/location/${id}/`)
           .then((res) => setLocation(res.data));
- }else (alert("El numero debe ser menor o igual a 126"))
+ }else (prompt("El numero debe ser menor o igual a 126"))
   }
   
 
