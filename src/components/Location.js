@@ -28,7 +28,9 @@ const searchId = () => {
   
     return (
         <div>
+            <div className="image">
             <img src={`../img/Rectangle1.svg`} alt="" />
+            </div>
         <div className="navbar">
                  <h2> {location.name}</h2>  
                 <div className="date">

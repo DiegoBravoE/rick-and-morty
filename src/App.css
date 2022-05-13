@@ -39,6 +39,10 @@ body{
  
 }
 .input input{
+  letter-spacing:2px;
+  font-family: fantasy;
+  color: antiquewhite;
+  font-size:15px;
   text-align: center;
   padding: .5rem;
   width: 500px;
@@ -76,3 +80,27 @@ body{
   background: #071d21;
   margin:1rem 0 ;
 }
+@media only screen and (max-width: 350px){
+
+ 
+.image img{
+  width: 738px;
+}
+.navbar{
+ width:738px; 
+}
+.contenedor{
+  display: flex;
+  flex-direction: column;
+}
+
+.date p{
+  margin:2rem  4rem;
+}
+.card{
+  display: flex;
+  margin: 1.5rem 6rem;
+}
+ }
+   
+ 
