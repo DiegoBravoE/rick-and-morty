@@ -107,6 +107,7 @@ body{
 }
 .input input {
   letter-spacing:1px;
+  font-size:10px;
   width:150px;
 }
 .card img{
