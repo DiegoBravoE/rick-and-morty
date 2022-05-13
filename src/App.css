@@ -84,23 +84,41 @@ body{
 
  
 .image img{
-  width: 738px;
+  width: 350px;
 }
 .navbar{
- width:738px; 
+ width:351px; 
 }
 .contenedor{
+  width: 300px;
   display: flex;
   flex-direction: column;
 }
-
+.date{
+  width: 351px;
+}
 .date p{
-  margin:2rem  4rem;
+  margin:1rem  .7rem;
 }
 .card{
   display: flex;
-  margin: 1.5rem 6rem;
+  width: 335px;
+  margin: 1rem .5rem;
 }
+.input input {
+  letter-spacing:1px;
+  width:150px;
+}
+.card img{
+  width: 120px;
+  
+}
+.list{
+  margin:  1rem 1rem;
+   list-style: none;
+   font-size: 9px;
+   width: max-content;
+ }
  }
    
  
