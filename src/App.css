@@ -80,16 +80,16 @@ body{
   background: #071d21;
   margin:1rem 6rem ;
 }
-@media only screen and (max-width: 400px){
+@media (max-width: 350px){
 
 .image img{
-  width: 400px;
+  width: 300px;
 }
 .navbar{
- width:400px; 
+ width:350px; 
 }
 .contenedor{
-  width: 300px;
+  width: 350px;
   display: flex;
   flex-direction: column;
 }
