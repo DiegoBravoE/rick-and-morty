@@ -9,7 +9,7 @@ useEffect(()=>{
 
 
 },[url])
- console.log(resident)
+ 
     return (
         <div  >
             { 

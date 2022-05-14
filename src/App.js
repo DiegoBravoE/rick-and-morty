@@ -1,4 +1,5 @@
 import Location from './components/Location'
+
 import './App.css';
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
     <div >
       
       <Location/>
-      
+     
         
     </div>
     
