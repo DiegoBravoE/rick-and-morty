@@ -31,10 +31,10 @@ const searchId = () => {
   
     return (
         <div>
+        <div className="navbar">
             <div className="image">
             <img src={`../img/Rectangle1.svg`} alt="" />
             </div>
-        <div className="navbar">
                  <h2> {location.name}</h2>  
                 <div className="date">
                      <p><strong>Type:{location.type}</strong></p><p><strong>Dimension: {location.dimension}</strong></p><p><strong>Population:{location.residents?.length}</strong></p>

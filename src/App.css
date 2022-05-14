@@ -5,7 +5,7 @@ padding: 0;
 box-sizing: border-box;
 }
 body{
-  
+  width: max-content;
   background-color: #05292E;
   height: 900px;
 }
@@ -27,7 +27,7 @@ body{
 }
 
 .navbar{
-  width: 1440px;
+  width: 1351px;
   background-color:#071d21 ;
   text-align: center;
   padding-bottom: 1rem;
